@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Dimension Flap</title>
+    <!-- Fav I-con -->
+     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Local CSS Linki -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Section Start -->
+    <div class="main">
+        <!-- UI Of Game Section Start -->
+        <div id="game-container">
+            <button id="theme-btn" onkeydown="event.preventDefault()">THEME</button> <!-- Theme Change Button -->
+            <div class="ui-layer">TAP / SPACE TO HOVER</div> <!-- instruction -->
+            <div class="scanlines"></div> <!-- Scanlines -->
+            <canvas id="birdCanvas" width="320" height="480"></canvas> <!-- Canvas -->
+        </div>
+        <!-- UI Of Game Section End -->
+        <!-- Developer Section Info Start-->
+        <div class="developer">
+            <p></p>
+        </div>
+        <!-- Developer Section Info End -->
+    </div>
+    <!-- Main Section End -->
+    <!-- Local Script File link -->
+    <script src="script.js"></script>
+</body>
+</html>
